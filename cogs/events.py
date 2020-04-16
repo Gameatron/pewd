@@ -23,7 +23,7 @@ class Events(commands.Cog):
             await message.channel.send("BRITTA")
         if messag.lower().startswith("what a fucking"):
             await message.channel.send("nigger")
-        if messag.lower().startswith(":honk:"):
+        if messag.lower().startswith("<:honk:699643898469023845>"):
             await message.channel.send("honk")
 
 

@@ -11,7 +11,7 @@ token, inv = os.environ.get('TOKEN'), os.environ.get('INVITE')
 bot = commands.Bot(command_prefix=">",
                    description="muss bot")
 # List of cogs
-cogs = ["events"]
+cogs = ["events", "error", "gates"]
 
 bot.remove_command('help')
 
