@@ -21,6 +21,10 @@ class Events(commands.Cog):
         messag = message.content
         if messag.lower().startswith('ulla'):
             await message.channel.send("BRITTA")
+        if messag.lower().startswith("what a fucking"):
+            await message.channel.send("nigger")
+        if messag.lower().startswith(":honk:"):
+            await message.channel.send("honk")
 
 
 def setup(bot):
