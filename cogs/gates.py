@@ -10,8 +10,8 @@ class Gate(commands.Cog):
     @commands.command()
     async def accept(self, ctx, user:discord.Member):
         await ctx.message.delete()
-        role = discget(ctx.guild.roles, id=699641351045644298)
-        channel = discget(ctx.guild.channels, id=699517721582501888)
+        role = discget(ctx.guild.roles, id=708176852925284396)
+        channel = discget(ctx.guild.channels, id=708171327848185896)
         if ctx.author.id in self.admins:
             await user.add_roles(role)
             await channel.send(f"{user.mention} has been accepted. Welcome.")
